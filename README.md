@@ -18,6 +18,3 @@ This project presents a comprehensive Hospital Management Backend, featuring rob
 <p align="center">
   <img src="hospital-flask-api/hospital_data_model.png" width="550">
 <p>
-
-## [4. SQL Problem Solving Portfolio](https://github.com/marliyehez/SQL-LeetCode)
-This repository serves as a showcase of my SQL problem-solving skills, featuring solutions to various database challenges from platforms like LeetCode. As a prospective Data Engineer, I recognize the significance of strong SQL proficiency in creating efficient data pipelines and performing advanced data analysis. This repository highlights my strong SQL proficiency, a critical skill for effective data manipulation and analysis.
