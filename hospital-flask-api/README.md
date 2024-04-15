@@ -1,6 +1,6 @@
 # Hospital Management Backend: Database and API
 
-This project is dedicated to the development of a robust backend system for an internal hospital management web application. The backend efficiently handles data operations, providing essential API endpoints for managing employees, doctor scheduling, patient records, and appointments.
+This project is dedicated to the development of a backend system for an internal hospital management web application. The backend handles data operations, providing API endpoints for managing employees, doctor scheduling, patient records, and appointments.
 
 ## Technology Stack
 
@@ -13,7 +13,7 @@ This project is dedicated to the development of a robust backend system for an i
 
 ## Features
 
-- **Employee Management:** Create and update employee records seamlessly.
+- **Employee Management:** Create and update employee records.
 - **Doctor Scheduling:** Manage doctor work schedules and availability.
 - **Patient Records:** Maintain comprehensive patient information and medical histories.
 - **Appointments:** Facilitate appointments scheduling between patients and doctors.
@@ -21,14 +21,14 @@ This project is dedicated to the development of a robust backend system for an i
 ## Additional Highlights
 
 **Automated Data Update from Google BigQuery:**  
-The backend is equipped with an automated scheduler that daily pulls vaccination data from Google BigQuery. This data is promptly and seamlessly updated directly into the 'patients' table, corresponding to each patient's unique national ID number (KTP).
+The backend is equipped with an automated scheduler that daily pulls vaccination data from Google BigQuery. This data is updated directly into the 'patients' table, corresponding to each patient's unique national ID number (KTP).
 
 **JWT Authentication:**  
 To ensure secure access and protect sensitive data, the backend implements JWT (JSON Web Token) authentication. This mechanism guarantees that only authorized users can interact with the API and manage the hospital's critical information.
 
 ## Data Modeling
 
-Our project employs a carefully designed data model to ensure efficient organization, retrieval, and manipulation of data across multiple databases. Each database represents a distinct entity within the hospital management system.
+This project employs a designed data model to ensure efficient organization, retrieval, and manipulation of data across multiple databases. Each database represents a distinct entity within the hospital management system.
 
 <p align="center">
   <img src="hospital_data_model.png" width="550">
@@ -36,7 +36,7 @@ Our project employs a carefully designed data model to ensure efficient organiza
 
 ## API Endpoints
 
-This section outlines the API endpoints available in our Hospital Management Backend. These endpoints enable interaction with the backend system to manage employees, patients, and appointments efficiently.
+This section outlines the API endpoints available in our Hospital Management Backend. These endpoints enable interaction with the backend system to manage employees, patients, and appointments.
 
 ### Authentication
 
@@ -73,5 +73,3 @@ This section outlines the API endpoints available in our Hospital Management Bac
 - **Endpoint:** `/appointments/:id`
 - **Method:** GET, PUT, DELETE
 - **Description:** The GET method with a specific `id` retrieves appointment details. Use the PUT method to modify appointment information, and the DELETE method to cancel an appointment.
-
-These API endpoints provide a comprehensive way to interact with the Hospital Management Backend, enabling efficient data management and scheduling within the hospital's operations.
