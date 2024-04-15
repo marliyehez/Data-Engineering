@@ -1,5 +1,5 @@
-# Data Engineering Portfolio
-Welcome to my Data Engineering portfolio! This collection showcases my expertise in designing and implementing data solutions, covering various aspects of data processing, management, and problem-solving. Below are the repositories that highlight my skills in different data engineering domains:
+# Data Engineering Hands-On Projects
+This repository contains a collection of hands-on projects that I've worked on to apply what I've learned as a beginner data engineer. Each project focuses on a different aspect of data engineering, including batch data processing, stream data processing, and database/API interactions.
 
 ## [1. Batch Processing for Transjakarta Bus Data](https://github.com/marliyehez/Data-Engineering/tree/main/batch-data-processing-transjakarta-bus)
 Utilizing GCP cloud services, this project employs Airflow for scheduling, PySpark for ETL, and Looker Studio for simple dashboarding to efficiently process Transjakarta bus data. This repository demonstrates my ability to handle large datasets and extract meaningful insights through batch processing techniques.
