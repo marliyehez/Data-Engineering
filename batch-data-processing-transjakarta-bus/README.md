@@ -4,10 +4,10 @@
 <p>
 
 ## Description
-In this project, a comprehensive batch data processing pipeline has been established for managing and analyzing Transjakarta bus data. The process involves the following steps:
+In this project, a  batch data processing pipeline has been established for managing and analyzing Transjakarta bus data. The process involves the following steps:
 
 **1. Data Upload to Google Cloud Storage (GCS):**  
-The project initiates by uploading CSV datasets to Google Cloud Storage. These datasets contain valuable information about Transjakarta buses.
+The project initiates by uploading CSV datasets to Google Cloud Storage. These datasets contain information about Transjakarta buses.
 
 **2. Airflow Scheduling on Compute Engine:**  
 Leveraging Airflow, a powerful workflow scheduler, on a Compute Engine instance, the ETL (Extract, Transform, Load) process is scheduled to begin.
@@ -25,7 +25,7 @@ Once the Dataproc cluster is ready, a PySpark program is executed. It retrieves 
 To provide actionable insights, Looker Studio is integrated with the BigQuery tables. Looker Studio connects to the transformed data, acting as a dynamic dashboard for visualizing trends, patterns, and performance metrics related to Transjakarta buses.
 
 ## Data Modeling
-The model is composed of a central fact table, dimension tables that provide context, hierarchical structures, foreign keys for establishing relationships, and attributes for achieving granularity, all within the framework of a simplified Snowflake Schema.
+The model is composed of a central fact table, dimension tables that provide context, hierarchical structures, foreign keys for establishing relationships, and attributes for achieving granularity, all within the framework of a Snowflake Schema.
 <p align="center">
   <img src="img/transjakarta_data_model.png" width="600">
 <p>
